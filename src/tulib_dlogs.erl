@@ -236,7 +236,7 @@ foldterms(F, Acc0, File) ->
                      | {badbytes, integer()}
                      | _.
 
--opaque iterator() :: #iterator{}.
+-type iterator() :: #iterator{}.
 
 -spec iterator(dlog()) -> iterator().
 %% @doc Return a chunk-iterator for Dlog.
