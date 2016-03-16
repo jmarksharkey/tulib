@@ -66,8 +66,3 @@ gensym0_test()      -> ?assert(gensym()    =/= gensym()).
 gensym1_test()      -> ?assert(gensym(foo) =/= gensym(foo)).
 gensym_cover_test() -> ?assertError(ref_overflow, gensym(foo, 4)).
 
-%%%_* Emacs ============================================================
-%%% Local Variables:
-%%% allout-layout: t
-%%% erlang-indent-level: 2
-%%% End:
